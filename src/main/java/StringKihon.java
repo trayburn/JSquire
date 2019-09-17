@@ -16,16 +16,6 @@ public class StringKihon extends StringKihonBase {
     }
 
     @Override
-<<<<<<< HEAD
-    protected String Combine_Parts_Of_A_Name(String firstName, String middleName, String lastName) {
-        return firstName + " " + middleName + " " + lastName;
-    }
-
-    @Override
-    protected String Combine_Two_Strings(String a, String b) {
-
-        return a + b;
-=======
     protected String combinePartsOfAName(String firstName, String middleName, String lastName) {
         throw new UnsupportedOperationException();
     }
@@ -33,7 +23,6 @@ public class StringKihon extends StringKihonBase {
     @Override
     protected String combineTwoStrings(String a, String b) {
         throw new UnsupportedOperationException();
->>>>>>> master
     }
 
     @Override
